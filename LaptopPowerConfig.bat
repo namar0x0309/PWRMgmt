@@ -25,11 +25,11 @@ IF %OnLine%==false GOTO BATTERY
  
  :BATTERY
  echo battery setting
-call %~dp0\binaries\qures\qres.exe x=1920 y=1080 f=60
+call %~dp0\binaries\qures\qres.exe x=2560 y=1440 f=24
 GOTO END
 
 :POWER
 echo power setting
-call %~dp0\binaries\qures\qres.exe x=1920 y=1080 f=144
+call %~dp0\binaries\qures\qres.exe x=2560 y=1440 f=165
 
 :END
